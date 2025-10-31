@@ -1,0 +1,20 @@
+.profileCard-wrapper{
+display: flex;
+flex-direction: column; 
+justify-content: center;
+align-items: center;
+width: 350px;
+border: 4px ;
+padding: 40px;
+gap: 20px;
+background-color: #9b9ea0;
+font-size: 25px;
+};
+
+.profileCard-wrapper>img{
+    width: 200px;
+}
+
+.hobby{
+    padding-right:153px;
+}

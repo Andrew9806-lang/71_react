@@ -1,0 +1,14 @@
+.lessonCard-wraper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    gap: 20px;
+    background: rgb(35, 100, 62);
+    border: 4px solid lch(29.78% 72.23 321.74 / 0.249);
+    padding: 40px;
+    font-size: 28px;
+}
+.lessonCard-wraper>img{
+    width: 200px;
+}

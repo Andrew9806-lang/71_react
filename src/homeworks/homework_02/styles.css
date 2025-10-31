@@ -1,0 +1,9 @@
+.homework02-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(55, 49, 49);
+
+}
