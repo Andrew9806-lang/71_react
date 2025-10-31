@@ -9,4 +9,5 @@ function Button(){
 //export komponenta po umolchaniyu komponenta button s pomoshyu eksporta
 // mi mozhem poluchat komponent v drugih komponentah i tam ego ispolzovat 
 // inache komponent budet nedostupen v drugih failah projejta 
+
 export default Button;

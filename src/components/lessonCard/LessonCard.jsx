@@ -17,7 +17,7 @@ function LessonCard() {
       <h3>Lesson2 {lessonData.lesson_number}</h3>
       <p>{lessonData.topic}</p>
       {/* tut mi vizivaem funkciyu dlya dobavleniya */}
-      <p>{getFullName}</p>
+      <p>{getFullName()}</p>
       <img src={lessonData.imgSrc} />
       <Button />
     </div>
