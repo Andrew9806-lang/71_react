@@ -7,8 +7,8 @@ import "./styles.css";
 //u funkcionalnih komponentov est parametr nazivaestya props
 // etot parametr pozvolyaet v moment vizova peredat v komponent znacheniya 
 // to est mi zadaem object i pishem tuda znachenie kotorie hotim 
-function Button(props){
-    return <button className="button" type={props.type}>{props.name}</button>;
+function Button({name,type}){
+    return <button className="button" type={type}>{name}</button>;
 }
 //export komponenta po umolchaniyu komponenta button s pomoshyu eksporta
 // mi mozhem poluchat komponent v drugih komponentah i tam ego ispolzovat 

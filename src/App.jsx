@@ -1,14 +1,15 @@
 
-import Lesson03 from "./Lesson_03/Lesson_03";
 // Импортируем компонент Button для его дальнейшего использования
 // import Button from "./components/Button/Button";
 
 
 //importi lekcii
 // import Lesson02 from "./lessons/lesson_01/lesson_01";
+// import Lesson03 from "./Lesson_03/Lesson_03";
 
 //importi domashnih rabot
  // import Homework_02 from "./homeworks/homework_02/homework_02";
+ import Homework_03 from "./homeworks/Homeworks_03/Homework";
 
 
 function App() {
@@ -25,8 +26,9 @@ function App() {
       {/* tut nado dobavit domashku git push -u original imya  */}
       {/* <Homework_02 /> */}
       {/* lekciya 3 */}
-      
-      <Lesson03 />
+
+      {/* <Lesson03 /> */}
+      <Homework_03 />
     </>
   );
 }
