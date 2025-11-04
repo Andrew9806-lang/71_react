@@ -2,15 +2,18 @@
 // Импортируем компонент Button для его дальнейшего использования
 // import Button from "./components/Button/Button";
 
-import Lesson04 from "./lessons/Lesson04/Lesson04";
+// import Lesson04 from "./lessons/Lesson04/Lesson04";
 
 
 //importi lekcii
 // import Lesson02 from "./lessons/lesson_01/lesson_01";
+// import Lesson04 from "./lessons/Lesson04/Lesson04";
+// import Lesson03 from "./Lesson_03/Lesson_03";
 
 //importi domashnih rabot
  // import Homework_02 from "./homeworks/homework_02/homework_02";
 // import Lesson03 from "./Lesson_03/Lesson_03";
+import Homework04 from "./homeworks/Homework04/Homework"
 
 function App() {
   return (
@@ -29,7 +32,8 @@ function App() {
        {/* <Lesson03 /> */}
 
        {/* lekciya 4 */}
-       <Lesson04 />
+       {/* <Lesson04 /> */}
+       <Homework04 />
     </>
   );
 }
