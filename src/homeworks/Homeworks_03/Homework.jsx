@@ -1,26 +1,22 @@
-import "./styles.css";
-import Input1 from "../../components/Input/Input";
 import Button from "../../components/Button/Button";
-import { InputInfo } from "./data";
+import Input from "../../components/Input/Input";
+import "./styles.css";
 
-function InputForm() {
+function Homework03() {
   return (
-    <div className="forms-container">
-      <Input1 {...InputInfo} />
-      <Button type="submit" name="get" />
+    <div className="homework03-wrapper">
+      <form className="contact-form">
+        <Input
+          name="email"
+          id="email_id"
+          label="Email"
+          placeholder="Enter your email"
+          type="email"
+        />
+        <Button name="Send email" type="submit" />
+      </form>
     </div>
   );
+}
 
-// variant 2 
-//   return (
-//     <div className="forms-container">
-//       <Input1
-//         label={InputInfo.label}
-//         name={InputInfo.name}
-//         placeholder={InputInfo.placeholder}
-//       />
-//          <Button type="submit" name="get" />
-//     </div>
-//   );
-};
-export default InputForm;
+export default Homework03;

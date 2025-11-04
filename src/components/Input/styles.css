@@ -1,25 +1,25 @@
-.form-wrapper{
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    gap: 10px;
-    
-}
-.form-wrapper>label{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    padding: 40px;
-    font-size: large;
-    color: rgb(52, 30, 73);
 
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
 }
 
-.form-wrapper>label>input{
-    width: 400px;
-    height: 30px;
+label {
+  font-size: 16px;
+  color: #6f6f6f;
+}
 
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #3f3f3f;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #a5a5a5;
 }
