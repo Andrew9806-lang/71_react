@@ -10,7 +10,8 @@
 // import Lesson02 from "./lessons/lesson_01/lesson_01";
 // import Lesson03 from "./Lesson_03/Lesson_03";
 // import Lesson04 from "./lessons/Lesson04/Lesson04";
-import Lesson05 from "./lessons/Lesson05/Lesson05";
+import Homework05 from "./homeworks/Homework_05/Homework05";
+// import Lesson05 from "./lessons/Lesson05/Lesson05";
 
 //importi domashnih rabot
  // import Homework_02 from "./homeworks/homework_02/homework_02";
@@ -42,7 +43,8 @@ function App() {
        {/* <Lesson04 /> */}
 
        {/* lekciya 5 */}
-       <Lesson05 />
+       {/* <Lesson05 /> */}
+       <Homework05 />
     </>
   );
 }
