@@ -1,29 +1,28 @@
 .feedback-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-    min-width: 400px;
-    padding: 20px;
-    background-color: white;
-    border: 2px solid red;
-    border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-width: 800px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
 }
 
-.button-like-dislike {
-    display: flex;
-    justify-content: space-between; /* Like слева, Dislike справа */
-    align-items: center;
-    flex-direction: row;
-    width: 100%; /* чтобы space-between работал */
-    max-width: 400px;
-    gap: 20px;
+.feedback-results-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.like-dislike-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
 }
 
 .result-container {
-    font-size: 28px;
-    text-align: center;
-    width: 60px; /* фиксированная ширина для счётчика */
+  font-size: 30px;
+  font-weight: bold;
 }
-
