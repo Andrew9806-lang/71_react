@@ -25,9 +25,16 @@ export const hippoData = {
 };
 
 export const lessonData =[{
-      lesson_number: 3,
+      lesson_number: 2,
+    topic: "Components",
+    name: "Jim Smith",
+    imgSrc: "https://cdn-icons-png.flaticon.com/512/5606/5606108.png",
+  },
+  
+  {  lesson_number: 3,
     topic: "Props",
     name: "Jim Smith",
     imgSrc: "https://cdn-icons-png.flaticon.com/512/5606/5606108.png",
   },
+
 ];

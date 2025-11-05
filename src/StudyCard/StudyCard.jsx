@@ -5,7 +5,7 @@ import "./styles.css";
 
 import { lessonData } from "./data";
 
-function StudyCard(props) {
+function StudyCard(lessonData) {
   // funkciya vozvrashaet imya uchitelya i ego familiyu
 
   return (
