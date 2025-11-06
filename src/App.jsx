@@ -10,6 +10,7 @@
 // import Lesson02 from "./lessons/lesson_01/lesson_01";
 // import Lesson03 from "./Lesson_03/Lesson_03";
 // import Lesson04 from "./lessons/Lesson04/Lesson04";
+
 import Homework05 from "./homeworks/Homework_05/Homework05";
 // import Lesson05 from "./lessons/Lesson05/Lesson05";
 
@@ -18,6 +19,7 @@ import Homework05 from "./homeworks/Homework_05/Homework05";
 
 //  import Homework_03 from "./homeworks/Homeworks_03/Homework
 // import Lesson03 from "./Lesson_03/Lesson_03";
+//import Homework04 from "./homeworks/Homework04/Homework"
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
 
        {/* lekciya 4 */}
        {/* <Lesson04 /> */}
+{/*<Homework04 />
+
 
        {/* lekciya 5 */}
        {/* <Lesson05 /> */}
